@@ -40,3 +40,19 @@ button {
 	width: 30%;
 	border-radius: 10px;
 }
+p#result {
+	background-color: #fefefe;
+	width: 45%;
+	margin: 50px auto auto auto;
+	border-top: 12px solid #29b6f6;
+	border-radius: 12px;
+	display: none;
+	padding: 24px;
+	font-size: 24px;
+}
+textarea {
+	width: 98%;
+	height: 200px;
+	overflow: auto;
+	resize: none;
+}
