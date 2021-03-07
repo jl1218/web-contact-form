@@ -27,6 +27,7 @@ input[type="text"] {
     border: none;
     border-bottom: 1.5px solid #29b6f6;
     min-width: 72%;
+    background-color: transparent;
 }
 input[type="text"]:focus {
     outline: none;
