@@ -59,7 +59,7 @@ p#result {
 textarea {
     width: 98%;
     height: 100px;
-    resize: none;
+    resize: vertical;
 }
 .value {
     color: blue;
