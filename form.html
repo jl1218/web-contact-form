@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Web Contact Form</title>
-        <link rel="stylesheet" href="form.css" />
+        <title>CodePen - Web Contact Form</title>
     </head>
-    <body translate="no">
+    <body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
         <div id="form">
             <div id="header">
                 <h1>Contact Us</h1>
@@ -31,9 +31,10 @@
                 </form>
             </div>
             <div class="input" id="four">
-                <p>Comment: <span class="require">*</span></p>
+                <p id="commentp">Comment: <span class="require">*</span></p>
+                <p id="smalltext"><a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> Supported</p>
                 <textarea id="comment" maxlength="250"></textarea>
-                <span id="counter"></span>
+                <span id="counter">0/250</span>
             </div>
             <div id="button">
                 <button onclick="submit();">Submit</button>
