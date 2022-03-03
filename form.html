@@ -15,17 +15,17 @@
             </div>
             <div class="input" id="one">
                 <p>Name: <span class="require">*</span></p>
-                <input type="text" placeholder="John" id="fname" />
+                <input type="text" placeholder="John" id="fname" required />
                 <input type="text" placeholder="Smith" id="lname" />
             </div>
             <div class="input" id="two">
                 <p>Email: <span class="require">*</span></p>
-                <input type="text" placeholder="JohnSmith123@gmail.com" id="email" />
+                <input type="text" placeholder="JohnSmith123@gmail.com" id="email" required />
             </div>
             <div class="input" id="three">
                 <p>Reason of contact: <span class="require">*</span></p>
                 <form id="reason">
-                    <input type="radio" name="reason" value="Query" id="query" /><label for="query">Query</label><br />
+                    <input type="radio" name="reason" value="Query" id="query" required /><label for="query">Query</label><br />
                     <input type="radio" name="reason" value="Feedback" id="feedback" /><label for="feedback">Feedback</label><br />
                     <input type="radio" name="reason" value="Complaint" id="complaint" /><label for="complaint">Complaint</label><br />
                     <input type="radio" name="reason" value="Other" id="other" /><label for="other">Other</label>
@@ -34,7 +34,7 @@
             <div class="input" id="four">
                 <p id="commentp">Comment: <span class="require">*</span></p>
                 <p id="smalltext"><a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> Supported</p>
-                <textarea id="comment" maxlength="250"></textarea>
+                <textarea id="comment" maxlength="250" required></textarea>
                 <span id="counter">0/250</span>
             </div>
             <div id="button">
